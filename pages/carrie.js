@@ -16,8 +16,8 @@ export default function Sardorbek() {
     }, []);
 
     return (
-      <div>
-          <div>Vancouver</div>
+        <div>
+            <div>Vancouver</div>
             <div>Carrie</div>
             <div>Today</div>
             <div>{new Date(date * 1000).toString()}</div>
