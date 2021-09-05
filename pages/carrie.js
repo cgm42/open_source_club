@@ -16,15 +16,12 @@ export default function Sardorbek() {
     }, []);
 
     return (
-        <div>
+      <div>
+          <div>Vancouver</div>
             <div>Carrie</div>
             <div>Today</div>
             <div>{new Date(date * 1000).toString()}</div>
             <div>{temp}</div>
-            <div>Carrie</div>
-            <div>Carrie</div>
-            <div>Carrie</div>
-            <div>Vancouver</div>
         </div>
     );
 }
