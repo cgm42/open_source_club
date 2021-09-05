@@ -40,10 +40,10 @@ export default function Home() {
 					</div>
 
 					<div className={styles.card}>
-						<Link href="/sardorbek">
-							<h2>Sardorbek Omonkulov &rarr;</h2>
+						<Link href="/duke">
+							<h2>Duke &rarr;</h2>
 						</Link>
-						<p>London</p>
+						<p>Las Vegas</p>
 					</div>
 				</div>
 			</main>
