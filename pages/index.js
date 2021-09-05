@@ -8,7 +8,6 @@ import Link from 'next/link';
 const TEST_URL = 'https://api.openweathermap.org/data/2.5/weather?q=London&appid=';
 
 export default function Home() {
-
     return (
         <div className={styles.container}>
             <Head>
@@ -40,14 +39,14 @@ export default function Home() {
                         </Link>
                         <p>Las Vegas</p>
                     </div>
-					<div className={styles.card}>
-						<Link href="/carrie"passHref>
-							<h2>carrie</h2>
-						</Link>
-						<p>Vancouver</p>
-					</div>
-				</div>
-			</main>
+                    <div className={styles.card}>
+                        <Link href="/carrie" passHref>
+                            <h2>carrie</h2>
+                        </Link>
+                        <p>Vancouver</p>
+                    </div>
+                </div>
+            </main>
 
             <footer className={styles.footer}>
                 <a
