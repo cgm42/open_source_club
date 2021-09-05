@@ -41,7 +41,7 @@ export default function Home() {
                     </div>
                     <div className={styles.card}>
                         <Link href="/carrie" passHref>
-                            <h2>carrie</h2>
+                            <h2>Carrie</h2>
                         </Link>
                         <p>Vancouver</p>
                     </div>
