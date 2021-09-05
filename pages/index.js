@@ -5,18 +5,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Link from "next/link";
 
-const TEST_URL =
-	"https://api.openweathermap.org/data/2.5/weather?q=London&appid=";
-
 export default function Home() {
-	useEffect(() => {
-		axios
-			.get(TEST_URL + process.env.NEXT_PUBLIC_OPEN_WEATHER_API_KEY)
-			.then((data) => {
-				console.log(data);
-			});
-	}, []);
-
 	return (
 		<div className={styles.container}>
 			<Head>

@@ -9,7 +9,6 @@ const WEATHER_URL = `https://api.openweathermap.org/data/2.5/weather?q=${CITY}&u
 export default function DavidBlackwelder() {
 	const [temp, setTemp] = useState(null);
 	const [description, setDescription] = useState(null);
-	const [icon, setIcon] = useState(null);
 
 	useEffect(() => {
 		axios.get(WEATHER_URL).then((res) => {
