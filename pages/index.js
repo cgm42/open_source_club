@@ -5,13 +5,16 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Link from "next/link";
 
-const TEST_URL = "https://api.openweathermap.org/data/2.5/weather?q=London&appid=";
+const TEST_URL =
+	"https://api.openweathermap.org/data/2.5/weather?q=London&appid=";
 
 export default function Home() {
 	useEffect(() => {
-		axios.get(TEST_URL + process.env.NEXT_PUBLIC_OPEN_WEATHER_API_KEY).then((data) => {
-			console.log(data);
-		});
+		axios
+			.get(TEST_URL + process.env.NEXT_PUBLIC_OPEN_WEATHER_API_KEY)
+			.then((data) => {
+				console.log(data);
+			});
 	}, []);
 
 	return (
@@ -28,7 +31,8 @@ export default function Home() {
 				</h1>
 
 				<p className={styles.description}>
-					Get started by editing <code className={styles.code}>pages/index.js</code>
+					Get started by editing{" "}
+					<code className={styles.code}>pages/index.js</code>
 				</p>
 
 				<div className={styles.grid}>
@@ -44,6 +48,13 @@ export default function Home() {
 							<h2>Duke &rarr;</h2>
 						</Link>
 						<p>Las Vegas</p>
+					</div>
+
+					<div className={styles.card}>
+						<Link href="/david-blackwelder" className={styles.card}>
+							<h2>David Blackwelder &rarr;</h2>
+						</Link>
+						<p>Charlotte</p>
 					</div>
 				</div>
 			</main>
