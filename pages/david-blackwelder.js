@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 const API_KEY = process.env.NEXT_PUBLIC_OPEN_WEATHER_API_KEY;
 const CITY = "Charlotte";
+const STATE = "NC";
 const UNITS = "imperial";
 const WEATHER_URL = `https://api.openweathermap.org/data/2.5/weather?q=${CITY}&units=${UNITS}&appid=${API_KEY}`;
 
@@ -22,7 +23,7 @@ export default function DavidBlackwelder() {
 		<div>
 			<div>David Blackwelder</div>
 			<div>
-				It is currently {temp}°F with {description} in {CITY}, NC.
+				It is currently {temp}°F with {description} in {CITY}, {STATE}.
 			</div>
 		</div>
 	);
