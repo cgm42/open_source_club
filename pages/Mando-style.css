@@ -6,33 +6,51 @@
     left: 33vw;
     top: 20px;
     color: white;
+        /* font-family: 'Poppins'; */
 }
 
 .mando__container--updated {
     display: flex;
     justify-content: center;
+    margin-top: 7%;
 }
 
 .mando__header--city {
-    display: flex;
-    justify-content: center;
-    /* font-family: 'Poppins'; */
     font-weight:900;
+    position: absolute;
+    top: 6%;
+    left: 35%;
+}
+
+.mando__container--date {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    width: 80%;
+    /* background-color: blue; */
+}
+
+.mando__header--date {
+    position: absolute;
+    top: 50%;
+    font-weight: 300;
 }
 
 .mando__container--temperature {
+    position: absolute;
+    top: 40%;
 }
 
 .mando__span--temperature {
-    font-size: 90px;
-    font-weight:600;
+    font-size: 100px;
+    font-weight:800;
     margin-left: 20px;
 
 }
 
 .mando__span--degree {
     position: absolute;
-    top: 160px;
+    top: 5%;
     font-size: 75px;
     font-weight: 400;
 }
@@ -41,7 +59,7 @@
     font-weight: 600;
     font-size: 70px;
     position: absolute;
-    top: 150px;
-    left: 155px;
+    top: -5%;
+    left: 115%;
     padding-left: 10px;
 }

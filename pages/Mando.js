@@ -6,12 +6,33 @@ const austinUrl = `https://api.openweathermap.org/data/2.5/weather?q=Austin&appi
 export default function Mando() {
     const [cityName, setCityName] = useState();
     const [temp, setTemp] = useState();
-
+    const [date, setDate] =useState();
+    const [updateTime, setUpdateTime] = useState();
+    const months = [
+                    "January", 
+                    "February", 
+                    "March", 
+                    "April", 
+                    "May", 
+                    "June", 
+                    "July", 
+                    "August", 
+                    "September", 
+                    "October", 
+                    "November", 
+                    "December"
+                ];
 
     useEffect(() => {
         const fetchAustinWeather = async () => {
         const response = await fetch(austinUrl);
-        const data = await response.json();            
+        const data = await response.json(); 
+        console.log('data', data); 
+        const d = new Date();
+        const tiempo = (` ${d.getHours()}:${d.getMinutes()}`);
+        const dato = (`${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`);
+        setDate(dato);
+        setUpdateTime(tiempo);         
         setCityName(data.name);
         setTemp(data.main.temp);
         };
@@ -22,10 +43,11 @@ export default function Mando() {
 
     return (
         <div className="mando__container--main">
-            <div className="mando__container--updated">Last updated:</div>
+            <div className="mando__container--updated">Last updated:{updateTime}</div>
             <h1 className="mando__header--city">{cityName}</h1>
-            <div>
-                <h1>Today</h1>
+            <div className="mando__container--date">
+                <h1 className="mando__header--today">Today</h1>
+                <h3 className="mando__header--date">{date}</h3>
             </div>
             
             <div className="mando__container--temperature"> 
