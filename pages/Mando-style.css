@@ -1,14 +1,47 @@
 .mando__container--main {
     background: linear-gradient(180deg, #091011 0%, #496C6B 68.23%, #769695 100%);
     position: absolute;
-    width: 375px;
+    width: 33vw;
     height: 100vh;
-    left: 1px;
-    top: 0px;
+    left: 33vw;
+    top: 20px;
+    color: white;
+}
+
+.mando__container--updated {
+    display: flex;
+    justify-content: center;
 }
 
 .mando__header--city {
-    color: white;
-    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    /* font-family: 'Poppins'; */
     font-weight:900;
+}
+
+.mando__container--temperature {
+}
+
+.mando__span--temperature {
+    font-size: 90px;
+    font-weight:600;
+    margin-left: 20px;
+
+}
+
+.mando__span--degree {
+    position: absolute;
+    top: 160px;
+    font-size: 75px;
+    font-weight: 400;
+}
+
+.mando__span--temp-system {
+    font-weight: 600;
+    font-size: 70px;
+    position: absolute;
+    top: 150px;
+    left: 155px;
+    padding-left: 10px;
 }
