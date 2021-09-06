@@ -1,0 +1,14 @@
+.mando__container--main {
+    background: linear-gradient(180deg, #091011 0%, #496C6B 68.23%, #769695 100%);
+    position: absolute;
+    width: 375px;
+    height: 100vh;
+    left: 1px;
+    top: 0px;
+}
+
+.mando__header--city {
+    color: white;
+    font-family: 'Poppins';
+    font-weight:900;
+}
