@@ -44,26 +44,26 @@ export default function Home() {
                     </div>
 
                     <div className={styles.card}>
-                      <Link href="/david-blackwelder" passHref>
-                        <h2>David Blackwelder &rarr;</h2>
-                      </Link>
-                      <p>Charlotte</p>
+                        <Link href="/david-blackwelder" passHref>
+                            <h2>David Blackwelder &rarr;</h2>
+                        </Link>
+                        <p>Charlotte</p>
                     </div>
                 </div>
             </main>
 
             <footer className={styles.footer}>
-              <a
-                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Powered by{" "}
-                <span className={styles.logo}>
-                  <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-                </span>
-              </a>
+                <a
+                    href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Powered by{' '}
+                    <span className={styles.logo}>
+                        <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+                    </span>
+                </a>
             </footer>
         </div>
-	);
+    );
 }
