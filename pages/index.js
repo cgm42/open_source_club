@@ -45,37 +45,27 @@ export default function Home() {
                         </Link>
                         <p>Vancouver</p>
                     </div>
+                    <div className={styles.card}>
+                        <Link href="/Mando">
+                          <h2>David L. Griffin &rarr;</h2>
+                        </Link>
+                        <p>Austin, TX.</p>
+                    </div>
                 </div>
             </main>
 
-          <div className={styles.card}>
-            <Link href="/duke">
-              <h2>Duke &rarr;</h2>
-            </Link>
-            <p>Las Vegas</p>
-          </div>
-
-          <div className={styles.card}>
-            <Link href="/Mando">
-              <h2>David L. Griffin &rarr;</h2>
-            </Link>
-            <p>Austin, TX.</p>
-          </div>
-        </div>
-      </main>
-
-			<footer className={styles.footer}>
-				<a
-					href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Powered by{" "}
-					<span className={styles.logo}>
-						<Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-					</span>
-				</a>
-			</footer>
+            <footer className={styles.footer}>
+              <a
+                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Powered by{" "}
+                <span className={styles.logo}>
+                  <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+                </span>
+              </a>
+            </footer>
 		</div>
 	);
 
