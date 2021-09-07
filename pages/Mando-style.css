@@ -1,64 +1,64 @@
 .mando__container--main {
-  background: linear-gradient(180deg, #091011 0%, #496c6b 68.23%, #769695 100%);
-  position: absolute;
-  width: 33vw;
-  height: 100vh;
-  left: 33vw;
-  top: 20px;
-  color: white;
-  /* font-family: 'Poppins'; */
+    background: linear-gradient(180deg, #091011 0%, #496c6b 68.23%, #769695 100%);
+    position: absolute;
+    width: 33vw;
+    height: 100vh;
+    left: 33vw;
+    top: 20px;
+    color: white;
+    /* font-family: 'Poppins'; */
 }
 
 .mando__container--updated {
-  display: flex;
-  justify-content: center;
-  margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
 }
 
 .mando__header--city {
-  font-weight: 900;
-  position: absolute;
-  top: 6%;
-  left: 35%;
+    font-weight: 900;
+    position: absolute;
+    top: 6%;
+    left: 35%;
 }
 
 .mando__container--date {
-  position: absolute;
-  top: 20%;
-  left: 7%;
-  width: 80%;
-  /* background-color: blue; */
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    width: 80%;
+    /* background-color: blue; */
 }
 
 .mando__header--date {
-  position: absolute;
-  top: 50%;
-  font-weight: 300;
+    position: absolute;
+    top: 50%;
+    font-weight: 300;
 }
 
 .mando__container--temperature {
-  position: absolute;
-  top: 40%;
+    position: absolute;
+    top: 40%;
 }
 
 .mando__span--temperature {
-  font-size: 100px;
-  font-weight: 800;
-  margin-left: 20px;
+    font-size: 100px;
+    font-weight: 800;
+    margin-left: 20px;
 }
 
 .mando__span--degree {
-  position: absolute;
-  top: 5%;
-  font-size: 75px;
-  font-weight: 400;
+    position: absolute;
+    top: 5%;
+    font-size: 75px;
+    font-weight: 400;
 }
 
 .mando__span--temp-system {
-  font-weight: 600;
-  font-size: 70px;
-  position: absolute;
-  top: -5%;
-  left: 115%;
-  padding-left: 10px;
+    font-weight: 600;
+    font-size: 70px;
+    position: absolute;
+    top: -5%;
+    left: 115%;
+    padding-left: 10px;
 }

@@ -47,7 +47,7 @@ export default function Home() {
                     </div>
                     <div className={styles.card}>
                         <Link href="/Mando">
-                          <h2>David L. Griffin &rarr;</h2>
+                            <h2>David L. Griffin &rarr;</h2>
                         </Link>
                         <p>Austin, TX.</p>
                     </div>
@@ -55,18 +55,17 @@ export default function Home() {
             </main>
 
             <footer className={styles.footer}>
-              <a
-                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Powered by{" "}
-                <span className={styles.logo}>
-                  <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-                </span>
-              </a>
+                <a
+                    href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Powered by{' '}
+                    <span className={styles.logo}>
+                        <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+                    </span>
+                </a>
             </footer>
-		</div>
-	);
-
+        </div>
+    );
 }
