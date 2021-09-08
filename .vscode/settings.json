@@ -1,3 +1,4 @@
 {
-	"bloop.openOnSuggestionsAvailable": false
+  "bloop.openOnSuggestionsAvailable": false,
+  "liveServer.settings.port": 5502
 }

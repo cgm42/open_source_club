@@ -1,11 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import { useState, useEffect } from 'react';
-import axios from 'axios';
 import Link from 'next/link';
-
-const TEST_URL = 'https://api.openweathermap.org/data/2.5/weather?q=London&appid=';
 
 export default function Home() {
     return (
@@ -39,17 +35,26 @@ export default function Home() {
                         </Link>
                         <p>Las Vegas</p>
                     </div>
+
                     <div className={styles.card}>
                         <Link href="/carrie" passHref>
                             <h2>Carrie</h2>
                         </Link>
                         <p>Vancouver</p>
                     </div>
+
                     <div className={styles.card}>
                         <Link href="/Mando">
-                            <h2>David L. Griffin &rarr;</h2>
+                            <h2>David L Griffin &rarr;</h2>
                         </Link>
                         <p>Austin, TX.</p>
+                    </div>
+
+                    <div className={styles.card}>
+                        <Link href="/david-blackwelder" passHref>
+                            <h2>David Blackwelder &rarr;</h2>
+                        </Link>
+                        <p>Charlotte</p>
                     </div>
                 </div>
             </main>
