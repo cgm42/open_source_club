@@ -44,6 +44,13 @@ export default function Home() {
                     </div>
 
                     <div className={styles.card}>
+                        <Link href="/Mando">
+                            <h2>David L Griffin &rarr;</h2>
+                        </Link>
+                        <p>Austin, TX.</p>
+                    </div>
+
+                    <div className={styles.card}>
                         <Link href="/david-blackwelder" passHref>
                             <h2>David Blackwelder &rarr;</h2>
                         </Link>
